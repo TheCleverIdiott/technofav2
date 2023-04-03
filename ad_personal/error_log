@@ -1,0 +1,2 @@
+[23-Jul-2018 15:25:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/magnussc/public_html/demo/ad_personal/gallery.php on line 352
+[25-Jul-2018 08:09:44 UTC] PHP Warning:  POST Content-Length of 13585824 bytes exceeds the limit of 8388608 bytes in Unknown on line 0

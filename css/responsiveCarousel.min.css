@@ -1,0 +1,132 @@
+
+
+/** page structure **/
+#w {
+  display: block;
+  width:95%;
+  margin: 0 auto;
+  padding: 2px 0px;
+  position:relative;
+}
+
+
+/** posts slider widget **/
+.crsl-items {
+  display: block;
+  padding: 0px;
+}
+
+.crsl-item {
+  padding:0px 0px;
+  
+}
+
+.testimonial_main_area{display:inline-block; width:100%; background-color:rgba(255,255,255,0.2); color:#FFF;}
+
+
+/** posts slider nav **/
+.slidernav {
+  display: block;
+  text-align: center;
+  width:100%;
+  position:absolute;
+  	top: 35%;
+    transform: translateY(-50%);
+}
+
+.slidernav a {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 1.4em;
+  color: #666;
+  text-decoration: none;
+}
+.slidernav a:active {
+  -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+.previous
+{
+	float:left;
+	position:absolute;
+	left:-65px;
+
+}
+.next
+{
+	float:right;
+	position:absolute;
+	right:-70px;
+	color:transparent !important;
+
+}
+
+
+
+@media screen and (max-width:800px)
+
+{
+
+.previous
+{
+	left:-55px;
+
+}
+.next
+{
+	right:-55px;	
+
+}
+
+.slider_carrocell_cont{width:auto !important}
+
+.footer_cont{width:auto !important}
+
+}
+
+
+@media screen and (max-width:768px)
+
+{
+.previous
+{
+	float:left;
+	position:absolute;
+	left:-65px;
+}
+
+.previous img{width:60%;}
+
+.next
+{
+	float:right;
+	position:absolute;
+	right:-70px;
+	color:transparent !important;
+
+}
+
+.next img{width:60%;}
+
+}
+@media screen and (max-width:480px)
+
+{
+.crsl-item {
+    padding: 8px 30px;
+}
+
+.previous
+{
+	left:-25px;
+
+}
+.next
+{
+	right:-25px;	
+
+}
+
+}
+

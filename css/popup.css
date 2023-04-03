@@ -1,0 +1,103 @@
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+.cnt223 a{
+text-decoration: none;
+}
+.popup{
+width: 100%;
+margin: 0 auto;
+display: none;
+position: fixed;
+z-index: 10000;
+}
+.cnt223{
+min-width: 600px;
+width: 700px;
+min-height: 300px;
+margin: 50px auto;
+background: none;
+position: relative; text-align:center;
+z-index: 10000;
+padding: 10px;
+
+}
+
+
+.cnt223 h2 {
+    background: #f00 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+.cnt223 h3{ text-align:center;  margin:10px 0 10px 0; }
+
+.bdr22{margin-left:-33px;}
+
+.popleft{float:left; position:relative; margin:-108px 0 0 -33px;}
+.popright{float:right; position:relative; margin:-108px -33px 0 0;}
+
+
+
+
+.cnt223 p{
+clear: both;
+color: #fff; font-size:17px;
+text-align: center;
+}
+.cnt223 p a{
+color:#F90;
+font-weight: bold;
+}
+
+.cnt223 p a:hover{
+color:#fff;
+font-weight: bold;
+}
+
+
+
+.cnt223 .x {
+    float: right;
+    height: 35px;
+    left: 0px;
+    position: relative;
+    top: 24px;
+    width: 34px;
+}
+.cnt223 .x:hover{
+cursor: pointer;
+}
+
+@media only screen and (min-width:200px) and (max-width:600px){
+
+.bdr{width:100%;}
+
+
+
+.cnt223{
+min-width: 90%;
+width: 90%;
+}
+.cnt223 h2{font-size:30px;}
+
+.popleft, .popright{display:none;}
